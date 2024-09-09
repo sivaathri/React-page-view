@@ -1,0 +1,33 @@
+/* App.css */
+.container {
+    display: flex;
+    flex-direction: column; /* This will make the header appear above the content */
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-grow: 1; /* This will take the remaining space after the header */
+  }
+  
+  .navbar {
+    width: 30%; /* Navbar takes 30% of the available width */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .main-content {
+    width: 81%; /* Main content takes 70% of the available width */
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-left: 15%;
+  }
+  
